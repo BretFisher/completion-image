@@ -19,3 +19,9 @@
 
 # Go workspace file
 go.work
+
+# avoid testing files and default outputs
+output
+*.csv
+*.png
+*.ttf
